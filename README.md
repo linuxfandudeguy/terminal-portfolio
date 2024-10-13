@@ -1,6 +1,6 @@
-# Terminal Portfolio Website by Sat Naing
+# Terminal Portfolio Website by lelbois
 
-![Terminal Portfolio Website by Sat Naing](https://user-images.githubusercontent.com/53733092/194220661-e2ff8b4c-f64a-4b64-a836-c52fae6bbcda.png)
+![Screenshot 2024-10-13 10 43 37 AM](https://github.com/user-attachments/assets/e0a061ae-35de-4244-b294-6738a1a6a764)
 
 ![ts](https://badgen.net/badge/Built%20With/TypeScript/blue?style=flat-square)
 ![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)
@@ -30,16 +30,15 @@ Blog Post: https://satnaing.dev/blog/posts/how-do-i-develop-my-terminal-portfoli
 
 ## Lighthouse Score
 
-<p align="center">
-<img width="710" alt="Sat Naing Terminal Lighthouse Score" src="public/lighthouse-result.svg">
-</p>
+![Screenshot 2024-10-13 10 36 01 AM](https://github.com/user-attachments/assets/d06fcf81-b368-4a12-9732-0784f943d3f6)
+
 
 ## Running Locally
 
 Clone the project
 
 ```bash
-git clone https://github.com/satnaing/terminal-portfolio.git
+git clone https://github.com/linuxfandudeguy/terminal-portfolio.git
 ```
 
 Go to the project directory
@@ -57,22 +56,22 @@ git remote remove origin
 Install dependencies
 
 ```bash
-npm install
+pnpm install
 ```
 
 Start the server
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ## Inspiration and Credits
 
-Here are some inspiration for this kind of terminal website. Only some features and functionalities are inspired by these following websites. All codes are written on my own.
+Here are some inspiration for this kind of terminal website. 
+This was forked from [satnaing](https://terminal.satnaing.dev), so overall he gets most of the credit.
 
-- [term m4tt72](https://term.m4tt72.com/)
-- [Forrest](https://fkcodes.com/)
+- [satnaing](https://terminal.satnaing.dev)
 
 ## Author
 
-- [@satnaing](https://satnaing.dev)
+- [@linuxfandudeguy](https://lelbois.nekoweb.org)
