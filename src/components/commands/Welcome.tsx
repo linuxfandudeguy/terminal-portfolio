@@ -13,7 +13,8 @@ const Welcome: React.FC = () => {
   return (
     <HeroContainer data-testid="welcome">
       <div className="info-section">
-        <PreName>
+       <pre>
+    <PreName>
           {`        
         _      _ _           _     
 | | ___| | |__   ___ (_)___ 
@@ -40,6 +41,7 @@ const Welcome: React.FC = () => {
 `}
           </PreNameMobile>
         </PreWrapper>
+        </pre>
         <div>Welcome to my terminal portfolio. (Version 1.3.1)</div>
         <Seperator>----</Seperator>
         <div>
