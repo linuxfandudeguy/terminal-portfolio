@@ -2886,10 +2886,6 @@ packages:
   psl@1.9.0:
     resolution: {integrity: sha512-E/ZsdU4HLs/68gYzgGTkMicWTLPdAftJLfJFlLUAAKZGkStNU72sZjT66SnMDVOfOWY/YAoiD7Jxa9iHvngcag==}
 
-  punycode@2.3.0:
-    resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
-    engines: {node: '>=6'}
-
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
@@ -3322,8 +3318,8 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  tough-cookie@4.1.2:
-    resolution: {integrity: sha512-G9fqXWoYFZgTc2z8Q5zaHy/vJMjm+WV0AkAeHxVCQiEB1b+dGvWzFW6QV07cY5jQ5gRkeid2qIkzkxUnmoQZUQ==}
+  tough-cookie@4.1.4:
+    resolution: {integrity: sha512-Loo5UUvLD9ScZ6jh8beX1T6sO1w2/MpCRpEP7V280GKMVUQ0Jzar2U3UJPsrdbziLEMMhu3Ujnq//rhiFuIeag==}
     engines: {node: '>=6'}
 
   tr46@1.0.1:
@@ -6522,7 +6518,7 @@ snapshots:
       rrweb-cssom: 0.6.0
       saxes: 6.0.0
       symbol-tree: 3.2.4
-      tough-cookie: 4.1.2
+      tough-cookie: 4.1.4
       w3c-xmlserializer: 4.0.0
       webidl-conversions: 7.0.0
       whatwg-encoding: 2.0.0
@@ -6927,8 +6923,6 @@ snapshots:
       react-is: 16.13.1
 
   psl@1.9.0: {}
-
-  punycode@2.3.0: {}
 
   punycode@2.3.1: {}
 
@@ -7392,10 +7386,10 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  tough-cookie@4.1.2:
+  tough-cookie@4.1.4:
     dependencies:
       psl: 1.9.0
-      punycode: 2.3.0
+      punycode: 2.3.1
       universalify: 0.2.0
       url-parse: 1.5.10
 
@@ -7405,7 +7399,7 @@ snapshots:
 
   tr46@4.1.1:
     dependencies:
-      punycode: 2.3.0
+      punycode: 2.3.1
 
   tsconfig-paths@3.14.2:
     dependencies:
@@ -7527,7 +7521,7 @@ snapshots:
 
   uri-js@4.4.1:
     dependencies:
-      punycode: 2.3.0
+      punycode: 2.3.1
 
   url-parse@1.5.10:
     dependencies:
