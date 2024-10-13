@@ -39,9 +39,14 @@ const Projects: React.FC = () => {
   ) : (
     <div data-testid="projects">
       <ProjectsIntro>
-       visit https://lelbois.nekoweb.org/ to see      
+        “Talk is cheap. Show me the code”? I got you. <br />
+        Here are some of my projects you shouldn't misss
       </ProjectsIntro>
-     
+      {projects.map(({ id, title, desc }) => (
+        <ProjectContainer key={id}>
+          <ProjectTitle>{`${id}. ${title}`}</ProjectTitle>
+          <ProjectDesc>{desc}</ProjectDesc>
+        </ProjectContainer>
       ))}
       <Usage cmd="projects" marginY />
     </div>
