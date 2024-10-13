@@ -35,7 +35,7 @@ const Welcome: React.FC = () => {
           </PreNameMobile>
         </PreWrapper>
         </pre>
-        <div>Welcome to my terminal portfolio. (V0.0.1)</div>
+        <div>Welcome to my terminal portfolio. (V0.0.1 wip)</div>
         <Seperator>----</Seperator>
         <div>
            This is a fork from a user by the name of satnaing.
